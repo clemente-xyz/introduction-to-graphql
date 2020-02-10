@@ -1,0 +1,6 @@
+{
+  "watch": ["src", ".env"],
+  "ext": "js",
+  "ignore": ["src/**/*.spec.js", ",git", "node_modules"],
+  "exec": "nodemon --exec ./src/index.js"
+}
